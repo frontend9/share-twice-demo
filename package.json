@@ -1,0 +1,32 @@
+{
+  "name": "share-twice-demo",
+  "version": "0.0.1",
+  "description": "share in dingding & wechat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:ctb/share.git"
+  },
+  "keywords": [
+    "share",
+    "dingding",
+    "wechat",
+    "twice"
+  ],
+  "dependencies": {
+    "rollup": "^0.51.5"
+  },
+  "devDependencies": {
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.2.0"
+  },
+  "author": "liyou",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}
